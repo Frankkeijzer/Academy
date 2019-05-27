@@ -1,7 +1,8 @@
 package oefeningen.week2;
 
 class overerving2 {
-	private void psvm() {
+	public static void main(String[] args) {
+		
 		Spiegelaar piet = new Spiegelaar();
 		Medewerker joost = new Spiegelaar();
 		piet.salarisOntvangen();
@@ -18,6 +19,11 @@ class overerving2 {
 		
 		aannemen(new Cassiere());
 
+		piet.leeftijd = 35;
+		joost.leeftijd = 20;
+		
+		System.out.println(piet.leeftijd);
+		System.out.println(joost.leeftijd);
 		
 	}
 	static void aannemen(Medewerker medewerker) {
