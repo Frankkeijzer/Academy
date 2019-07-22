@@ -1,6 +1,6 @@
 package oefeningen.OCA.package2;
 
-public class Test {
+public class Test1 {
 	public static void swap (Person p1, Person p2) {
 	Person temp = p1;
 	p1 = p2;
@@ -38,4 +38,3 @@ class Schaap{
 	Dier beer = new Dier();
 	
 }
-

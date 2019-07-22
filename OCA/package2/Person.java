@@ -2,7 +2,7 @@ package oefeningen.OCA.package2;
 
 public class Person {
 	private String name;
-	Person(String newName){
+	public Person(String newName){
 		name = newName;
 	}
 	public String getName() {

@@ -13,8 +13,8 @@ public class Noobs {
     public static void main(String[] args) {
         Noobs n = new Noobs();
         int a = 'a';
-        char c = 6;
+    //    char c = 6;
         n.m(a);
-        n.m(c);
+        //n.m(c);
     }
 }
