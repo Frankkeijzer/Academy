@@ -9,7 +9,9 @@ public class MainVoorInterface implements MijnInterface2, MijnInterface3 {
 		MainVoorInterface m = new MainVoorInterface();
 		m.methode2MijnInt2();
 		MijnInterface2 m2 = new MainVoorInterface();
-		
+		bererekenen b = new bererekenen();
+		b.statischeIntMethode();
+		b.roepen();
 	}
 
 	@Override
